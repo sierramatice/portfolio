@@ -2100,7 +2100,7 @@ input, select, textarea {
 		width: 50%;
 		right: 10px;
   		top: 10px;
-  		background: #c2ffc2;
+  		background: #E0D4E8;
   		border-radius: 3.325em;  
   		z-index: 10;		
 	}
@@ -2129,7 +2129,7 @@ input, select, textarea {
 		}
 
 		.menu a:hover{
-			background-color: #A488B3;
+			background-color: #F25555;
 		}
 
 	@media screen and (max-width: 1150px) {
