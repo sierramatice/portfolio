@@ -4,7 +4,7 @@ This project was done for the 5th annual UX Protothon hosted by UW Dubstech. The
 
 From there we began brainstorming and sketching.
 
-![alt text](GRsketch.jpg)
+![alt text](GR-sketch.jpg)
 
 Due to the limited time of the protothon after brainstorming and sketching for about 20 minutes we got started on our mock ups. The functions I focused on, working on mock-ups and details of user flow, were the Menu Calendar, the Grocery List, the Day-of Pop-up and the Grocery List Lock Screen Notification (all pictured above). Pictured below are our mock-ups and details of all the screens we created.
 
