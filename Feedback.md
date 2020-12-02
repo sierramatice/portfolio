@@ -1,4 +1,4 @@
-# Nat
+# Nat 12/2/2020
 Visual Stuff (all my opinions feel free to disregard lmao)
 - I love the logo and the colors.
 - I think the nav bar with the separate buttons looks a bit odd (maybe cause I'm not used to it). I think I prefer like the whole top being a sticky bar with the nav options being just words but ya know. Preferences lol
