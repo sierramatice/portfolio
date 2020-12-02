@@ -8,6 +8,159 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style type="text/css">
+			.tabDisplay {
+				-moz-flex-grow: 0;
+				-webkit-flex-grow: 0;
+				-ms-flex-grow: 0;
+				flex-grow: 0;
+				-moz-flex-shrink: 0;
+				-webkit-flex-shrink: 0;
+				-ms-flex-shrink: 0;
+				flex-shrink: 0;
+				border-radius: 0;
+				border-bottom-right-radius: 0.25;
+				border-bottom-left-radius: 0.25;
+				border: solid 1px;
+				width: 23rem;
+				height: 13rem;
+				margin-top: 2.5rem;
+				margin-bottom: 1rem;
+				
+				border-color: #BCAACD;
+				background-color: #E0D4E8;
+			}
+
+			.tabDisplay img {
+				-moz-object-fit: cover;
+				-webkit-object-fit: cover;
+				-ms-object-fit: cover;
+				object-fit: cover;
+				-moz-object-position: top;
+				-webkit-object-position: top;
+				-ms-object-position: top;
+				object-position: top;
+				display: block;
+				width: 100%;
+				height: 100%;
+				border-radius: 0;
+			}
+
+			.tabDisplay:before {
+				border-color: #BCAACD;
+				background-color: #E0D4E8;
+				content: '';
+				display: block;
+				background-position: center;
+				background-repeat: no-repeat;
+				border: solid 1px;
+				border-bottom: 0;
+			}
+
+
+
+			.tabDisplay:before {
+				border-color: #BCAACD;
+				background-color: #E0D4E8;
+				height: 1rem;
+				background-size: 64px 32px;
+				margin-top: -1rem;
+				border-radius: 0.25rem 0.25rem 0 0;
+				width: calc(100% + 2px);
+				margin-left: -1px;
+			}
+
+
+			.appDisplay {
+				-moz-flex-grow: 0;
+				-webkit-flex-grow: 0;
+				-ms-flex-grow: 0;
+				flex-grow: 0;
+				-moz-flex-shrink: 0;
+				-webkit-flex-shrink: 0;
+				-ms-flex-shrink: 0;
+				flex-shrink: 0;
+				border-radius: 0;
+				border: solid 1px;
+				width: 9.75rem;
+				height: 17.33rem;
+				margin-top: 2.5rem;
+				margin-bottom: 3.5rem;
+				border-color: #BCAACD;
+				background-color: #E0D4E8;
+			}
+
+			.appDisplay img {
+				-moz-object-fit: cover;
+				-webkit-object-fit: cover;
+				-ms-object-fit: cover;
+				object-fit: cover;
+				-moz-object-position: top;
+				-webkit-object-position: top;
+				-ms-object-position: top;
+				object-position: top;
+				display: block;
+				width: 100%;
+				height: 100%;
+				border-radius: 0;
+			}
+
+			.appDisplay:before {
+				border-color: #BCAACD;
+				background-color: #E0D4E8;
+				content: '';
+				display: block;
+				background-position: center;
+				background-repeat: no-repeat;
+				border: solid 1px;
+				border-bottom: 0;
+			}
+
+			.appDisplay:after {
+				border-color: #BCAACD;
+				background-color: #E0D4E8;
+				content: '';
+				display: block;
+				background-position: center;
+				background-repeat: no-repeat;
+				border: solid 1px;
+				border-top: 0;
+			}
+
+			.appDisplay:before {
+				border-color: #BCAACD;
+				background-color: #E0D4E8;
+				height: 1.8rem;
+				background-size: 64px 32px;
+				margin-top: -1.8rem;
+				border-radius: 1rem 1rem 0 0;
+			}
+
+			.appDisplay:after {
+				border-color: #BCAACD;
+				background-color: #E0D4E8;
+				height: 2.25rem;
+				background-size: 64px 32px;
+				margin-bottom: -2.25rem;
+				border-radius: 0 0 1rem 1rem;
+			}
+
+			.appDisplay:before {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: rgba(0, 0, 0, 0.2)%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='3' ry='3' x='11' y='12' width='42' height='6' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+				border-color: rgba(0, 0, 0, 0.2);
+				width: calc(100% + 2px);
+				margin-left: -1px;
+			}
+
+			.appDisplay:after {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: rgba(0, 0, 0, 0.2)%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+				border-color: rgba(0, 0, 0, 0.2);
+				width: calc(100% + 2px);
+				margin-left: -1px;
+			}
+
+
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -75,26 +228,59 @@
 							<img src="images/roadie.png" alt="" target="_blank"/>
 						</div>
 					</section>
-
-			
+					
 					<section class="wrapper style1 align-center">
 						<div class="inner">
 							<!--<h2>More Projects</h2>
 							<p>For more information on these projects please contact me at karras@uw.edu</p>-->
 							<div class="items style3 big onscroll-fade-in">
 								<!--<section>
-									<img src="images/packing planner.png" style="height: 30em;">
+									<div class="image phoneDisplay">
+										<img src="images/packing planner.png">
+									</div>
 									<h3>One</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 									
 								</section>-->
 								<section>
 									<!--<span class="icon solid style2 major fa-save"></span>-->
+									<div class="image tabDisplay">
+										<img src="images/am1.png" alt=""  target="_blank"/>
+									</div>
+									<h3>Amtrak Usability Study</h3>
+									<p>Winter 2019<br>An in-depth analysis and usability study of the Amtrak website</p>
+									<a href="https://medium.com/@sierramatice/amtrak-usability-study-95202606da93?source=friends_link&sk=4976e99441b6e6ed32b6c5fa1b9fda17" class="button" target="_blank">Learn More</a>
+								</section>
+
+								<section>
+									<!--<span class="icon solid style2 major fa-save"></span>-->
+									<div class="image appDisplay">
+										<img src="images/Questions.png" alt=""  target="_blank"/>
+									</div>
+									<h3>Packing Planner</h3>
+									<p>Summer 2019<br>A simple process where a user can quickly enter the information about their trip and get a personalized packing list.</p>
+									<a href="https://sierramatice.medium.com/packing-calculator-4e57a053ab76" class="button" target="_blank">Learn More</a>
+								</section>
+
+
+								<!--<section>
+									<div class="image appDisplay">
+										<img src="images/Calender.png" alt=""  target="_blank"/>
+									</div>
 									<h3>Amtrak Usability Study</h3>
 									<p>An in-depth analysis and usability study of the Amtrak website</p>
 									<a href="https://medium.com/@sierramatice/amtrak-usability-study-95202606da93?source=friends_link&sk=4976e99441b6e6ed32b6c5fa1b9fda17" class="button" target="_blank">Learn More</a>
 								</section>
-								<!--
+
+								<section>
+									<div class="image tabDisplay">
+										<img src="images/am1.png" alt=""  target="_blank"/>
+									</div>
+									<h3>Amtrak Usability Study</h3>
+									<p>An in-depth analysis and usability study of the Amtrak website</p>
+									<a href="https://medium.com/@sierramatice/amtrak-usability-study-95202606da93?source=friends_link&sk=4976e99441b6e6ed32b6c5fa1b9fda17" class="button" target="_blank">Learn More</a>
+								</section>
+								
 								<section>
 									<span class="icon solid style2 major fa-chart-bar"></span>
 									<h3>Three</h3>
@@ -106,8 +292,8 @@
 									<h3>Four</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
 									
-								</section>
-								<section>
+								</section>-->
+								<!--<section>
 									<span class="icon solid style2 major fa-cog"></span>
 									<h3>Five</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
